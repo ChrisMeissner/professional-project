@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #303D4F;
+    --secondary-color: #edeef6;
+    --tertiary-color: #9eced0;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* HEADER STYLES START */
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 42px;
+    padding: 5px 15px 5px 40px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    font-weight: light;
+    margin: 10px 0;
+    display: flex;
+}
+
+header a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+header nav {
+    margin: 25px 75px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0 5px;
+}
+
+header nav ul li a {
+    padding: 5px;
+    font-weight: light;
+    font-size: 20px;
+    border-bottom: 4px solid var(--tertiary-color);
+}
+
+section {
+    padding: 20px 0;
+}
+/* HEADER STYLES END */
+
+
+/* HERO STYLES START */
+.hero {
+    background-image: url("../images/Chris-Meissner-Headshot.jpeg");
+    background-size: contain;
+}
+
+.hero-box {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    margin: 300px 60px 5px 900px;
+    text-align: center;
+}
+
+.hero-box h3 {
+    font-size: 26px;
+    padding: 5px;
+    background-color: ver(--tertiary-color);
+}
+/* HERO STYLES END */
+
+
+/* ABOUT ME STYLES START */
+.about-me {
+    display: flex;
+}
+
+.section-title {
+    padding: 0 0 0 150px;
+}
+
+.section-info {
+    border-left: 3px solid var(--primary-color);
+}
+
+.section-title h2 {
+    font-size: 46px;
+    color: var(--primary-color);
+    text-align: right;
+    margin: 0 15px;
+    padding: 0 5px;
+}
+
+.section-info h3 {
+    font-size: 18px;
+    padding: 0 40px 0 25px;
+}
+/* ABOUT ME STYLES END */
+
+
+
+/* WORK STYLES START */
+.work {
+    display: flex;
+}
+/* WORK STYLES END */
+
+
+
+/* CONTACT ME STYLES START */
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contact-me ul li {
+    padding: 0 5px;
+    font-size: 20px;
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.contact-me ul li a {
+    text-decoration: none;
+    padding: 5px;
+}
+/* CONTACT ME STYLES STOP */
